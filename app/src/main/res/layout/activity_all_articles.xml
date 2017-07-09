@@ -1,0 +1,191 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/conTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/defaultColor"
+        android:text="Church of the Nazarene"
+        android:textStyle="bold"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/aofTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/defaultColor"
+        android:text="Articles of Faith StudyMap"
+        android:textSize="16sp"
+        android:layout_below="@+id/conTextView"
+        android:layout_marginLeft="30dp"/>
+
+    <ImageButton
+        android:id="@+id/btnArticleOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/article1"
+        android:background="@null"
+        android:layout_below="@+id/aofTextView"
+        android:layout_toLeftOf="@+id/btnArticleFour"
+        android:layout_marginTop="10dp"/>
+
+    <ImageButton
+        android:id="@+id/btnArticleTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/article2"
+        android:background="@null"
+        android:layout_alignBottom="@+id/btnArticleOne"
+        android:layout_marginLeft="50dp"/>
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/btnArticleThree"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@null"-->
+        <!--android:src="@drawable/article3"-->
+        <!--android:layout_marginLeft="80dp"-->
+        <!--android:layout_marginTop="120dp"-->
+        <!--android:scaleType="fitXY"/>-->
+
+    <ImageButton
+        android:id="@+id/btnArticleFour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/article4"
+        android:background="@null"
+        android:layout_toLeftOf="@+id/btnArticleSix"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="20dp"/>
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/btnArticleFive"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@null"-->
+        <!--android:src="@drawable/article5"-->
+        <!--android:layout_marginLeft="220dp"-->
+        <!--android:layout_marginTop="140dp"-->
+        <!--android:scaleType="fitXY"/>-->
+
+    <ImageButton
+        android:id="@+id/btnArticleSix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:src="@drawable/article6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/btnArticleEight"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/article8"-->
+        <!--android:background="@null"-->
+        <!--android:layout_marginLeft="280dp"-->
+        <!--android:layout_marginTop="60dp"-->
+        <!--android:scaleType="fitXY"/>-->
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/btnArticleSeven"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/article7"-->
+        <!--android:background="@null"-->
+        <!--android:layout_marginLeft="280dp"-->
+        <!--android:layout_marginTop="25dp"-->
+        <!--android:scaleType="fitXY"/>-->
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/btnArticleNine"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/article9"-->
+        <!--android:background="@null"-->
+        <!--android:layout_marginLeft="340dp"-->
+        <!--android:layout_marginTop="25dp"-->
+        <!--android:scaleType="fitXY"/>-->
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/btnArticleTen"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/article10"-->
+        <!--android:background="@null"-->
+        <!--android:layout_marginLeft="400dp"-->
+        <!--android:layout_marginTop="90dp"-->
+        <!--android:scaleType="fitXY"/>-->
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/btnArticleEleven"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/article11"-->
+        <!--android:background="@null"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--android:layout_margin="16dp"-->
+        <!--android:scaleType="fitXY"/>-->
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/btnArticleTwelve"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/article12"-->
+        <!--android:background="@null"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--android:layout_marginBottom="15dp"-->
+        <!--android:layout_marginLeft="35dp"-->
+        <!--android:scaleType="fitXY"/>-->
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/btnArticleThirteen"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/article13"-->
+        <!--android:background="@null"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--android:layout_marginBottom="15dp"-->
+        <!--android:layout_marginLeft="92dp"-->
+        <!--android:scaleType="fitXY"/>-->
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/btnArticleFourteen"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/article14"-->
+        <!--android:background="@null"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--android:layout_marginBottom="15dp"-->
+        <!--android:layout_marginLeft="142dp"-->
+        <!--android:scaleType="fitXY"/>-->
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/btnArticleFifteen"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/article15"-->
+        <!--android:background="@null"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--android:layout_marginBottom="30dp"-->
+        <!--android:layout_marginLeft="240dp"-->
+        <!--android:scaleType="fitXY"/>-->
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/btnArticleSixteen"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/article16"-->
+        <!--android:background="@null"-->
+        <!--android:layout_gravity="bottom|right"-->
+        <!--android:layout_marginBottom="50dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:scaleType="fitXY" />-->
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="defaultColor">#000000</color>
+    <color name="frontAppNameTextColor">#795548</color>
+    <color name="frontPageButtonColor">#03A9F4</color>
+    <color name="frontPageButtonTextColor">#FFFFFF</color>
+    <color name="frontPageStudyMapColor">#515151</color>
+    <color name="frontPageArticlesOfColor">#A8713D</color>
+    <color name="articlesTitleColor">#A8713D</color>
+    <color name="allArticlesBgColor">#FFFFFF</color>
+</resources>

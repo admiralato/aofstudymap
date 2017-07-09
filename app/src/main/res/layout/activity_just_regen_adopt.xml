@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/justRegenAdoptArticleTitle"
+        android:textColor="@color/articlesTitleColor"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_margin="16dp"/>
+
+    <ImageView
+        android:id="@+id/justRegenAdoptImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/justification_regeneration_adoption"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/txtViewJustRegenAdoptArticleContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/justRegenAdoptArticleContent"
+        android:textColor="@color/defaultColor"
+        android:scrollbars="vertical"
+        android:maxLines="4"
+        android:background="#07000000"
+        android:padding="5dp"
+        android:textSize="15sp"
+        android:layout_margin="16dp"
+        android:layout_gravity="bottom"/>
+
+    <ImageButton
+        android:id="@+id/btnPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_play_arrow_black_36dp"
+        android:scaleType="fitStart"
+        android:layout_gravity="center|top|left"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="16dp"/>
+
+    <ImageButton
+        android:id="@+id/btnReplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_replay_black_36dp"
+        android:scaleType="fitStart"
+        android:layout_gravity="center|top|left"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="16dp"/>
+
+    <ImageButton
+        android:id="@+id/btnHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_home_black_36dp"
+        android:scaleType="fitStart"
+        android:layout_gravity="center|top|right"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="16dp"/>
+
+    <ImageButton
+        android:id="@+id/btnRightArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_navigate_next_black_36dp"
+        android:scaleType="fitStart"
+        android:layout_gravity="center|bottom|right"
+        android:adjustViewBounds="true"
+        android:layout_marginBottom="100dp"
+        android:layout_marginRight="16dp"/>
+
+    <ImageButton
+        android:id="@+id/btnLeftArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_navigate_before_black_36dp"
+        android:scaleType="fitStart"
+        android:layout_gravity="center|bottom|left"
+        android:adjustViewBounds="true"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="16dp"/>
+
+    <ImageButton
+        android:id="@+id/btnMoreInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_menu_black_36dp"
+        android:scaleType="fitStart"
+        android:layout_gravity="center|top|right"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="16dp"/>
+</FrameLayout>

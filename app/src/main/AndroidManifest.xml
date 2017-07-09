@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wmc.aofstudymap" >
+
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <supports-screens android:xlargeScreens="false"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+        <service android:name=".BackgroundMusicService" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FirstThreeArticleActivity"
+            android:label="@string/title_activity_first_three_article"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+        </activity>
+        <activity
+            android:name=".TriuneGodActivity"
+            android:label="@string/title_activity_triune_god"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+        </activity>
+        <activity
+            android:name=".JesusChristActivity"
+            android:label="@string/title_activity_jesus_christ"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+        </activity>
+        <activity
+            android:name=".HolySpiritActivity"
+            android:label="@string/title_activity_holy_spirit"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+        </activity>
+        <activity
+            android:name=".HolyScripturesActivity"
+            android:label="@string/title_activity_holy_scriptures"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+        </activity>
+        <activity
+            android:name=".ArticleFiveToTenActivity"
+            android:label="@string/title_activity_article_five_to_ten"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+        </activity>
+        <activity
+            android:name=".SinArticleActivity"
+            android:label="@string/title_activity_sin_article"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+        </activity>
+        <activity
+            android:name=".AtonementArticleActivity"
+            android:label="@string/title_activity_atonement_article"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+        </activity>
+        <activity
+            android:name=".PrevenientGraceArticleActivity"
+            android:label="@string/title_activity_prevenient_grace_article"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+        </activity>
+        <activity
+            android:name=".RepentanceArticleActivity"
+            android:label="@string/title_activity_repentance_article"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+        </activity>
+        <activity
+            android:name=".JustRegenAdoptActivity"
+            android:label="@string/title_activity_just_regen_adopt"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+        </activity>
+        <activity
+            android:name=".EntireSanctificationArticleActivity"
+            android:label="@string/title_activity_entire_sanctification_article"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+        </activity>
+        <activity
+            android:name=".ArticlesFiveToTenReviewActivity"
+            android:label="@string/title_activity_articles_five_to_ten_review_article"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+        </activity>
+        <activity
+            android:name=".TheChurchArticleActivity"
+            android:label="@string/title_activity_the_church_article"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+        </activity>
+        <activity
+            android:name=".BaptismActivity"
+            android:label="@string/title_activity_baptism"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+        </activity>
+        <activity
+            android:name=".LordsSupperActivity"
+            android:label="@string/title_activity_lords_supper"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+        </activity>
+        <activity
+            android:name=".DivineHealingActivity"
+            android:label="@string/title_activity_divine_healing"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+        </activity>
+        <activity
+            android:name=".TheEndTimesActivity"
+            android:label="@string/title_activity_the_end_times"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+        </activity>
+        <activity
+            android:name=".SecondComingActivity"
+            android:label="@string/title_activity_second_coming"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+        </activity>
+        <activity
+            android:name=".RessJudgDestArticleActivity"
+            android:label="@string/title_activity_ress_judg_dest_article"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+        </activity>
+        <activity
+            android:name=".ReviewOfArticlesActivity"
+            android:label="@string/title_activity_review_of_articles"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+        </activity>
+        <activity
+            android:name=".AllArticlesActivity"
+            android:label="@string/title_activity_all_articles"
+            android:screenOrientation="landscape"
+            android:launchMode="singleInstance"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+        </activity>
+    </application>
+
+</manifest>
